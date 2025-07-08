@@ -20,7 +20,7 @@ from openapi_spec_parser import OpenAPISpecParser
 # pylint: disable=line-too-long
 # Get the template file location & endpoint destination location relative to this script
 ENDPOINT_TEMPLATE_NAME = Path(__file__).parent.joinpath("templates").joinpath("endpoint_template.jinja2") # <- Jinja2 template needs to be on the same directory as this script
-ENDPOINT_DESTINATION_DIR = Path(__file__).parent.parent.joinpath("endpoints") # <- The Endpoint files are created in the endpoints dir in the project root
+ENDPOINT_DESTINATION_DIR = Path(__file__).parent.joinpath("endpoints") # <- The Endpoint files are created in the endpoints dir in the project root
 
 
 class EndpointGenerator():
